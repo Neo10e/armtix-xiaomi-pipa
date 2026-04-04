@@ -29,10 +29,9 @@
 > User name is "armtix", user and root password both are "armtix". User can run any program with sudo.
 
 ### Setting up 
-> Log in as root with password armtix
+Log in as root with password armtix
 
 #### Resize the image you flashed to span the entire partition 
-> [!IMPORTANT]
 > You can't install packages without
 ```bash
 resize2fs /dev/disk/by-label/armtix
