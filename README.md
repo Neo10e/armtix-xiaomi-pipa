@@ -6,6 +6,8 @@ This project is an unofficial port of Artix Linux to aarch64 for Xiaomi Pad 6 (p
 
 ALL YOUR DATA WILL BE LOST!!! PROCEED WITH CAUTION!!! 
 
+Note that ARMtix does NOT use systemd - it uses OpenRC, Runit, s6 or dinit (depending on the RootFS image you choose). If you have only ever used systemd-based distros, expect differences in service management, logging, and boot process. You are expected to be comfortable with non-systemd inits.
+
 This guide assumes you know how a linux distro works and are capable of installing a gui yourself
 
 **NO ONE IS NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE MADE TO YOUR DEVICE!!! YOU HAVE BEEN WARNED, IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! AGAIN! YOU HAVE BEEN WARNED!!!**
