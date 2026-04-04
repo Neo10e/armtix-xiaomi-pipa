@@ -32,8 +32,7 @@
 
 ## Singleboot
 
-<details>
-  <summary><strong>Flashing</strong></summary>
+### Flashing
   
 
 #### Reboot your tablet into bootloader mode by holding `Volume Down` and `Power` buttons
@@ -63,21 +62,14 @@ fastboot reboot
 </details>
 
 ## Dualboot
-<details>
-  <summary><strong>Repartitioning</strong></summary>
+### Repartitioning
 
 > [!NOTE] TO DO
 >
 > For now, ask in the [Support groups](../README.md#Support-Groups)
 ---
 
-</details>
-<br>
-<details>
-  <summary><strong>Flashing</strong></summary>
-
-
-### Dualboot notes
+### Flashing
 
 > [!WARNING]
 > Repartition required!
@@ -117,8 +109,5 @@ fastboot erase dtbo_b
 ```bash
 fastboot reboot
 ```
-</details>
-<br>
-
 
 ## [Next step: Post-install](./post-install.md)
