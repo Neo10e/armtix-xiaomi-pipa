@@ -21,7 +21,7 @@
 >
 > That's because hardware clock is not writable on pipa
 >
-> On the first boot after connecting to the internet, we need to wait ~2 min for the date & time to be synchronized. Next time we boot up, we won't have to wait anymore
+> On the first boot after connecting to the internet, we need to wait ~5 min for the date & time to be synchronized. Next time we boot up, we won't have to wait anymore
 
 > [!NOTE]
 > Login & password:
@@ -42,7 +42,7 @@ Use nmtui to connect to your wifi
 ```bash
 nmtui
 ```
-> now wait ~2 minutes
+> now wait ~5 minutes
 
 #### Initialize the pacman keyring:
 
