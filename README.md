@@ -1,4 +1,4 @@
-# ARMtix for Xiaomi Pad 6 (pipa)
+# ARMtix Linux for Xiaomi Pad 6 (pipa)
 
 This project is an unofficial port of Artix Linux to aarch64 for Xiaomi Pad 6 (pipa)
 
