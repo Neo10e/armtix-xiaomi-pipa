@@ -65,7 +65,6 @@ fastboot reboot
 > [!NOTE] TO DO
 >
 > For now, ask in the [Support groups](../README.md#Support-Groups)
----
 
 ### Flashing
 
