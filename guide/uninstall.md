@@ -1,4 +1,4 @@
-# ARMtix for Xiaomi Pad 6 (pipa)
+# ARMtix Linux for Xiaomi Pad 6 (pipa)
 
 ## Uninstallation
 
