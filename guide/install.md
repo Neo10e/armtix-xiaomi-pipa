@@ -59,8 +59,6 @@ fastboot erase dtbo_ab
 fastboot reboot
 ```
 
-</details>
-
 ## Dualboot
 ### Repartitioning
 
