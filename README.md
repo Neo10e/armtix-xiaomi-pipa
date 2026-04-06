@@ -8,9 +8,9 @@ ALL YOUR DATA WILL BE LOST!!! PROCEED WITH CAUTION!!!
 
 Note that ARMtix does NOT use systemd - it uses OpenRC, Runit, s6 or dinit (depending on the RootFS image you choose). If you have only ever used systemd-based distros, expect differences in service management, logging, and boot process. You are expected to be comfortable with non-systemd inits.
 
-This guide assumes you know how a linux distro works and are capable of installing a gui yourself
+This guide assumes you know how a linux distro works and are capable of installing a gui yourself. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
-**NO ONE IS NOT RESPONSIBLE FOR ANY DAMAGE YOU HAVE MADE TO YOUR DEVICE!!! YOU HAVE BEEN WARNED, IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**NO ONE IS RESPONSIBLE FOR ANY DAMAGE YOU HAVE MADE TO YOUR DEVICE!!! YOU HAVE BEEN WARNED, IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 ## Get Started
 
@@ -23,7 +23,7 @@ This guide assumes you know how a linux distro works and are capable of installi
 
 ## Miscellaneous
 
-- Troubleshooting (TO DO)
+- [Troubleshooting](guide/troubleshooting.md) (WIP)
 
 - Tips & Tricks (TO DO)
 
