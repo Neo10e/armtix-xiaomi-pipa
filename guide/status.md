@@ -5,7 +5,7 @@
 | Feature                       | OpenRC | Runit | s6 | Dinit | Notes                                 |
 |-------------------------------|--------|-------|----|-------|---------------------------------------|
 | Suspend / Sleep Mode          | ✅     | ✅    | ✅ | ✅    |                                       |
-| Speakers                      | ✅     | ✅    | ✅ | ✅    | Install & enable service as user      |
+| Speakers                      | ✅     | ✅    | ✅ | ✅    | Install & enable services as user     |
 | Microphone                    | ✅     | ✅    | ✅ | ✅    |                                       |
 | Battery status                | ✅     | ✅    | ✅ | ✅    |                                       |
 | Wi-Fi                         | ✅     | ✅    | ✅ | ✅    |                                       |
@@ -22,14 +22,14 @@
 | UFS                           | ✅     | ✅    | ✅ | ✅    |                                       |
 | Back Camera                   | ⚠️     | ⚠️    | ⚠️ | ⚠️    | Poor quality (shrek mode)             |
 | Front Camera                  | ❌     | ❌    | ❌ | ❌    |                                       |
-| Sensors (general)             | ✅     | ✅    | ⚠️ | ⚠️    | Takes some time to work after suspend |
+| Sensors (general)             | ⚠️     | ⚠️    | ⚠️ | ⚠️    | Takes some time to work after suspend |
 | Xiaomi keyboard               | ✅     | ✅    | ✅ | ✅    | NFC doesn't work                      |
 | Xiaomi Pen                    | ✅     | ✅    | ✅ | ✅    |                                       |
 | Pen charging                  | ✅     | ✅    | ✅ | ✅    |                                       |
 | Camera Flash                  | ✅     | ✅    | ✅ | ✅    |                                       |
 | USB OTG                       | ✅     | ✅    | ✅ | ✅    |                                       |
-| Accelerometer                 | ✅     | ✅    | ❌ | ❌    | Broken for now, can't fix             |
-| Ambient Light                 | ✅     | ✅    | ❌ | ❌    | Broken for now, can't fix             |
+| Accelerometer                 | ✅     | ✅    | ✅ | ✅    |                                       |
+| Ambient Light                 | ✅     | ✅    | ✅ | ✅    |                                       |
 
 ## Legend  
 ### ✅ – is working 
