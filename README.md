@@ -23,7 +23,7 @@ This guide assumes you know how a linux distro works and are capable of installi
 
 ## Miscellaneous
 
-- [Troubleshooting](guide/troubleshooting.md) (WIP)
+- [Troubleshooting](guide/troubleshooting.md)
 
 - Tips & Tricks (TO DO)
 
