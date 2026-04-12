@@ -62,7 +62,8 @@ fastboot reboot
 ## Dualboot
 ### Repartitioning
 
-> [!NOTE] TO DO
+> [!NOTE]
+> TO DO
 >
 > For now, ask in the [Support groups](../README.md#Support-Groups)
 
