@@ -33,33 +33,33 @@ Log in as root with password armtix
 
 #### Resize the image you flashed to span the entire partition 
 > You can't install packages without
-```bash
-resize2fs /dev/disk/by-label/armtix
+```console
+# resize2fs /dev/disk/by-label/armtix
 ```
 #### Connect to the Internet
 Network Manager is pre installed.
 Use nmtui to connect to your wifi
-```bash
-nmtui
+```console
+# nmtui
 ```
-> now wait 2 to 5 minutes
+> Now wait 2 to 5 min
 
 #### Initialize the pacman keyring:
 
-```bash
-pacman-key --init
+```console
+# pacman-key --init
 ```
 > No need to populate artix keyring; currently packages in ARMtix don't have signatures
 
 #### Kernel updates
 Kernel updates are handled via pacman
 - to enable automatic kernel updates run
-```bash
-touch /boot/.autoflash
+```console
+# touch /boot/.autoflash
 ```
 - to flash kernel manually, run 
-```bash
-/usr/bin/flashkernel.sh
+```console
+# /usr/bin/flashkernel.sh
 ```
 
 ### Configure the base system
@@ -67,12 +67,14 @@ touch /boot/.autoflash
 Continue configuring ARMtix as usual and customize ARMix to your needs
 
 Images include a helper script that can be used to setup and install KDE Plasma
-```bash
-~/setup.sh
+> Use only if you're lazy... Manual is **strongly** recommended
+```console
+# ~/setup.sh
 ```
-Do not install GNOME on ARMtix because for now “GNOME Desktop Environment No Longer Supported” (read more [here](https://artixlinux.org/news.php#GNOME_Desktop_Environment_No_Longer_Supported)) Blame GNOME devs for depending heavily on systemd
+
+Do not install GNOME on ARMtix because for now “GNOME Desktop Environment No Longer Supported” (read more [here](https://artixlinux.org/news.php#GNOME_Desktop_Environment_No_Longer_Supported))
 
 Feel free to refer artix guide from this point onwards **(skip bootloader section!!)**
 https://wiki.artixlinux.org/Main/Installation#Configure_the_base_system
 
-
+## Finished!
