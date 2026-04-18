@@ -25,7 +25,9 @@ This guide assumes you know how a linux distro works and are capable of installi
 
 - [Troubleshooting](guide/troubleshooting.md)
 
-- Tips & Tricks (TO DO)
+- [Tips & Tricks](guide/tips-and-tricks.md)
+
+- [PKGBUILDs repo](https://github.com/Neo10e/PKGBUILDs-pipa)
 
 - [Uninstallation](guide/uninstall.md)
 
