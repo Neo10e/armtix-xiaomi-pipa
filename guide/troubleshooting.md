@@ -102,12 +102,12 @@ $ rc-update --user add wireplumber default
 ```
 
 #### Runit
-There are currently no official service packages for Runit. They will be added to [pipa-armtix](https://github.com/Neo10e/pipa-armtix) repo in the future
+There are currently no official service packages for Runit. They will be added to [PKGBUILDs repo](https://github.com/Neo10e/PKGBUILDs-pipa) in the future
 
 For now see https://wiki.artixlinux.org/Site/PipewireInsteadPulseaudio
 
 #### s6
-There are currently no official service packages for s6. They will be added to [pipa-armtix](https://github.com/Neo10e/pipa-armtix) repo in the future
+There are currently no official service packages for s6. They will be added to [PKGBUILDs repo](https://github.com/Neo10e/PKGBUILDs-pipa) in the future
 
 For now see https://wiki.artixlinux.org/Site/PipewireInsteadPulseaudio
 
@@ -170,15 +170,20 @@ Install the init package and enable service
 ### Reboot your device and check if bluetooth works
 
 > [!Note]
-> If it still does not work, you will have to do some additional steps;
+> If it still does not work, you will have to do some additional steps
 
-Downgrade Bluez to an older version, for example:
+In [pipa-armtix](https://github.com/Neo10e/pipa-armtix) repo, `bluez` vesrion is set to `5.86-4`. There have been instances where updating bluez caused bluetooth to break on pipa. If you want a newer version of bluetooth, install it from the [world](https://repo.armtixlinux.org/world) repo
+
 ```console
-# pacman -U /var/cache/pacman/pkg/bluez-5.86-4-aarch64.pkg.tar.xz
+# pacman -S world/bluez
 ```
-> If you don't have any older version in your cache, try [this](../files/bluez-5.86-4-aarch64.pkg.tar.xz) version
+
+If this causes bluetooth to break, you can roll back bluez to the last working version from [pipa-armtix](https://github.com/Neo10e/pipa-armtix/tree/main/repo) repository
+
+```console
+# pacman -S pipa-armtix/bluez
+```
 
 For more infos or troubleshooting see Archlinux's [wiki page](https://wiki.archlinux.org/index.php/Bluetooth)
 
 ##### Finished!
-
