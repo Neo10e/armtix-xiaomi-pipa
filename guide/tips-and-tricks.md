@@ -75,7 +75,7 @@ Include = /etc/pacman.d/mirrorlist-arch
 # pacman-key --populate archlinuxarm
 ```
 
-- If you get an prompt about the package's signature marginal trust, add `SigLevel = Never` to the repo (at your own risk!)
+- If you get an prompt about the package's signature marginal trust, try to download [archlinuxarm-keyring](https://archlinuxarm.org/packages/any/archlinuxarm-keyring) directly from repo, the one in ARMtix may be outdated. Or add `SigLevel = Never` to the repos in pacman config (at your own risk! not recommended)
 
 - If your Arch downloads are slow, try enabling other mirrors near you in `/etc/pacman.d/mirrorlist-arch`. For ARMtix, all of them are enabled
 
