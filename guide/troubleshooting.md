@@ -24,6 +24,12 @@ $ fastboot flash partition:4 path/to/gpt_both4.bin
 ```
 ##### Finished!
 
+## libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+
+This is a known Fastboot issue on Windows. Make sure you are using the latest version of [Android Platform Tools](https://developer.android.com/tools/releases/platform-tools). If that doesn't help, flash the images from WSL or Linux (you can even do it from a bootable USB drive).
+
+##### Finished!
+
 ## Sensors breaks
 
 > [!NOTE]
