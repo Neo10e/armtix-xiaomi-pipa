@@ -9,7 +9,7 @@ For general tips & tricks for pipa, we should make a separate wiki/repo/channel 
 ## Enable Arch / ALARM repos
 
 > [!WARNING]
-Any unofficial repositories (including mine, Arch, ALARM repositories and the AUR) are not supported by ARMtix. Use them at your own risk. Packages in these repositories get updated at a different rate than the official ones and may break your system. If you have any problems with your system after installing packages from these repositories, you will have to solve them yourself. If you need assistance, you can ask in the forum or [Support groups](../README.md#Support-Groups), but don't demand any help from the developers.
+Any unofficial repositories (including our, Arch, ALARM repositories and the AUR) are not supported by ARMtix. Use them at your own risk. Packages in these repositories get updated at a different rate than the official ones and may break your system. If you have any problems with your system after installing packages from these repositories, you will have to solve them yourself. If you need assistance, you can ask in the forum or [Support groups](../README.md#Support-Groups), but don't demand any help from the developers.
 
 ### Do I need this?
 
